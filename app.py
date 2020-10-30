@@ -34,7 +34,7 @@ def return_prediction(model,scaler,sample_json):
 app = Flask(__name__)
 # Configure a secret SECRET_KEY
 # We will later learn much better ways to do this!!
-app.config['SECRET_KEY'] = 'someRandomKey'
+app.config['SECRET_KEY'] = 'MZvUCbW2U2ayEuKVyuvK'
 
 
 # REMEMBER TO LOAD THE MODEL AND THE SCALER!
